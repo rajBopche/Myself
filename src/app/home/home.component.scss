@@ -1,0 +1,35 @@
+.full_page_image {
+    height: 100%;
+    width: 100%;
+    background: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+    margin-top: 40px;
+}
+
+li {
+    color: white;
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "montserrat_bold", "arial", sans-serif;
+}
+
+li:hover {
+    color: #3ddc84;
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "montserrat_bold", "arial", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
