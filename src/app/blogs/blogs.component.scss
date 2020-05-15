@@ -12,20 +12,27 @@ ul {
 }
 
 .text_color_black {
-    color: black;
+    color: rgb(70, 0, 70);
     font-family: monospace;
+    margin-top: 20px;
+    font-size: 16px;
 }
 
 li {
     color: #00c358;
-    font-family: "montserrat_bold", "arial", sans-serif;
+    font-family: "montserrat_regular", "arial", sans-serif;
+    font-size: 16px;
     margin-top: 20px;
+    transition: color 1s;
+}
+
+.change_style_on_hover:hover {
+    font-family: "montserrat_bold", "arial", sans-serif;
+    font-size: 14px;
+    color: rgb(136, 0, 136);
 }
 
 a {
     text-decoration: none;
-}
-
-a:hover {
-    border-bottom: 1px solid #00c358;
+    transition: font-family 0.5s;
 }
