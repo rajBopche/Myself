@@ -4,16 +4,16 @@ ul {
 
 li {
     color: white;
-    display: inline;
+    display: inline-block;
     font-size: 20px;
-    padding: 20px 20px 20px 0px;
+    padding: 0px 30px 0px 0px;
     font-family: "montserrat_bold", "arial", sans-serif;
 }
 
 li:hover {
+    display: inline-block;
     color: #3ddc84;
-    display: inline;
-    padding: 20px 20px 20px 0px;
+    padding: 0px 38px 0px 0px;
     font-size: 20px;
     font-family: "montserrat_bold", "arial", sans-serif;
 }
