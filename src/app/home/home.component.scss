@@ -8,12 +8,13 @@ li {
     font-size: 20px;
     padding: 0px 30px 0px 0px;
     font-family: "montserrat_bold", "arial", sans-serif;
+    transition: color 0.5s;
 }
 
 li:hover {
     display: inline-block;
     color: #3ddc84;
-    padding: 0px 38px 0px 0px;
+    padding: 0px 30px 0px 0px;
     font-size: 20px;
     font-family: "montserrat_bold", "arial", sans-serif;
 }

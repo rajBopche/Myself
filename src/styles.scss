@@ -4,5 +4,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #111 !important;
+  background: url("img1.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
