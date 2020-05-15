@@ -1,4 +1,4 @@
-h1{
+h1 {
     color: white;
     font-family: "elianto_regular", "arial", sans-serif;
     font-size: 44px;
@@ -6,12 +6,13 @@ h1{
     margin-left: 40px;
     margin-top: 40px;
     margin-bottom: 10px;
+    transition: color 0.5s;
 }
 
-h1:hover{
+h1:hover {
     color: #3ddc84;
 }
 
-a{
+a {
     text-decoration: none;
 }
