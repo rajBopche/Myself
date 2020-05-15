@@ -3,11 +3,13 @@
         <li *ngFor="let blog of blogs" class="text_color_black">{{blog.date}}</li>
     </ul>
     <ul>
-            <li *ngFor="let blog of blogs">{{blog.field}}</li>
+        <li *ngFor="let blog of blogs">{{blog.field}}</li>
     </ul>
     <ul>
-        <a href="">
-            <li *ngFor="let blog of blogs" class="change_style_on_hover">{{blog.title}}</li>
-        </a>
+        <div *ngFor="let blog of blogs">
+            <a href [routerLink]="['/blogs',blog.id]">
+                <li class="change_style_on_hover">{{blog.title}}</li>
+            </a>
+        </div>
     </ul>
 </div>
