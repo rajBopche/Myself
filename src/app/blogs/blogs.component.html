@@ -1,3 +1,12 @@
 <div class="full_white_background">
-    <h1>My Blogs</h1>
+    <ul>
+        <a href="" *ngFor="let blog of blogs">
+        <li class="text_color_black">{{blog.date}}</li>
+        </a>
+    </ul>
+    <ul>
+        <a href="" *ngFor="let blog of blogs;">
+            <li>{{blog.title}}</li>
+        </a>
+    </ul>
 </div>

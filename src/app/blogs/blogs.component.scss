@@ -1,9 +1,31 @@
-p {
-    color: blanchedalmond;
-}
-
 .full_white_background {
     width: 100vw;
     height: 100vh;
     background-color: white;
+    overflow-y: scroll;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+    float: left;
+}
+
+.text_color_black {
+    color: black;
+    font-family: monospace;
+}
+
+li {
+    color: #00c358;
+    font-family: "montserrat_bold", "arial", sans-serif;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid #00c358;
 }
