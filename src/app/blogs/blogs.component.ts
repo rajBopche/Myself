@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Blog } from '../blog';
+import { Blog } from '../models/blog';
 
 @Component({
   selector: 'app-blogs',
@@ -40,7 +40,7 @@ export class BlogsComponent implements OnInit {
     new Blog(101,"15th Apr 2020","Coroutines are not Threads!","Yes, you heard it rite","Android")]
 
 
-  constructor() { }
+  constructor( ) { }
 
   ngOnInit() {
   }
