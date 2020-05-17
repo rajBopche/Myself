@@ -3,12 +3,12 @@ ul {
     margin-left: 40px;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 0px
+    padding: 0px;
 }
 
 li {
     color: white;
-    display: inline-block;
+    display: inline;
     font-size: 20px;
     padding: 0px 30px 0px 0px;
     font-family: "montserrat_bold", "arial", sans-serif;
@@ -16,7 +16,7 @@ li {
 }
 
 li:hover {
-    display: inline-block;
+    display: inline;
     color: #3ddc84;
     padding: 0px 30px 0px 0px;
     font-size: 20px;
