@@ -1,5 +1,6 @@
 export class Blog {
-    constructor(public id:number,public date: string, public title: string, public content: string,public field: string) {
+    // field denotes whether it is related to Android, Angular, Productivity, etc
+    constructor(public id:number,public date: string, public title: string,public field: string){
 
     }
 }
