@@ -55,7 +55,7 @@ export class HomeComponent implements OnInit {
       }
 
       case MenuOption.Me: {
-
+        this.moveToOtherComponent('/me')
       }
     }
   }

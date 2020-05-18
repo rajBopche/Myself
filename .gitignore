@@ -146,4 +146,8 @@ temp/
 # Ignore all local history of files
 .history
 
+# Jpeg Images
+.jpg
+.jpeg
+
 # End of https://www.gitignore.io/api/node,angular,visualstudiocode

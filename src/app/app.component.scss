@@ -1,5 +1,7 @@
+.full_screen,
 .container {
   height: 100%;
-  width: 100%;
+  min-height: 100%;
   display: block;
+  overflow-y: auto;
 }

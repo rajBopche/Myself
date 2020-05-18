@@ -5,7 +5,9 @@ import { BlogsComponent } from './blogs/blogs.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { TopbarComponent } from './topbar/topbar.component';
+import { HttpClientModule } from '@angular/common/http';
 import { BlogDetailsComponent } from './blog-details/blog-details.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -13,11 +15,13 @@ import { BlogDetailsComponent } from './blog-details/blog-details.component';
     BlogsComponent,
     HomeComponent,
     TopbarComponent,
-    BlogDetailsComponent
+    BlogDetailsComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
