@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BlogsService } from '../services/blogs.service';
 
-import { Users } from '../models/users';
+import { Blog } from '../models/blog';
 
 @Component({
   selector: 'app-blogs',
@@ -10,7 +10,7 @@ import { Users } from '../models/users';
 })
 export class BlogsComponent implements OnInit {
 
-  blogs: Users[];
+  blogs: Blog[];
 
   constructor(private blogsService: BlogsService) { }
 

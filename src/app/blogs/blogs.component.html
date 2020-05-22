@@ -1,14 +1,14 @@
 <div class="full_white_background">
     <ul>
-        <li *ngFor="let blog of blogs" class="text_color_purple">{{blog.login}}</li>
+        <li *ngFor="let blog of blogs" class="text_color_purple">{{blog.id}}</li>
     </ul>
     <ul>
-        <li *ngFor="let blog of blogs">{{blog.login}}</li>
+        <li *ngFor="let blog of blogs">{{blog.field}}</li>
     </ul>
     <ul>
         <div *ngFor="let blog of blogs">
             <a href [routerLink]="['/blogs',blog.id]">
-                <li class="change_style_on_hover">{{blog.login}}</li>
+                <li class="change_style_on_hover">{{blog.title}}</li>
             </a>
         </div>
     </ul>
